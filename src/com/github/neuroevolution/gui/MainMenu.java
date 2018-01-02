@@ -4,6 +4,10 @@ import javax.swing.JFrame;
 
 public class MainMenu extends JFrame {
     public MainMenu() {
+        super ("NeuroEvolution");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        pack();
+        setVisible(true);
     }
 
     public void init() {
@@ -12,7 +16,7 @@ public class MainMenu extends JFrame {
     }
 
     public boolean prepare() {
-        // load and prepare gui
+
         return true;
     }
 
